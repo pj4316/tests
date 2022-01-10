@@ -34,7 +34,7 @@
   },
   "scripts": {
     "start": "webpack serve --open --node-env development",
-    "build": "webpack",
+    "build": "webpack --node-env development",
     "build:test": "webpack --node-env test"
   },
   "eslintConfig": {

@@ -3,7 +3,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const DotEnvPlugin = require('dotenv-webpack');
 const path = require('path');
 const PATH_SOURCE = path.resolve('./src');
-const PATH_BUILD = path.resolve('./dist');
+const PATH_BUILD = path.resolve('./docs');
 const port = 3000;
 
 const NODE_ENV = process.env.NODE_ENV;
